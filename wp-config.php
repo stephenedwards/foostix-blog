@@ -14,6 +14,8 @@
  * @package WordPress
  */
 
+ini_set('display_errors','1');
+
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
 
