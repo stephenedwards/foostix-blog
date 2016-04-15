@@ -1,0 +1,45 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+/* Layout the page similar to the built-in post edit screen. */
+
+#pw-settings {
+	margin-right: 310px;
+}
+
+#pw-settings-content {
+	width: 100%;
+	float: left;
+}
+
+#pw-settings-sidebar {
+	float: right;
+	margin-right: -310px;
+	width: 290px;
+}
+
+#pw-settings-sidebar .centered {
+	text-align: center;
+}
+
+#pw-settings-sidebar .button-large {
+	font-size: 17px;
+	line-height: 30px;
+	height: 32px;
+}
+
+#pw-settings-sidebar .last-blurb {
+	font-size: 17px;
+}
+
+/* postbox overrides */
+#pw-settings-sidebar .sidebar-container .postbox .inside,
+#pw-settings-sidebar .sidebar-container .postbox .inside ul {
+	margin-bottom: 0;
+}
+
+/* Admin pages styles */
+.pw-checkbox-label,
+.pw-radio-label {
+	margin: .25em 0 .5em !important;
+	display: block;
+}
